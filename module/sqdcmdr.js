@@ -1,6 +1,6 @@
 /**
- * A simple and flexible system for world-building using an arbitrary collection of character and item attributes
- * Author: Atropos
+ * Squadron Commander - FVTT system based on Simple Worldbuilding System by Atropos
+ * Author: NeoAeZ
  * Software License: GNU GPLv3
  */
 
@@ -21,7 +21,7 @@ Hooks.once("init", async function () {
   Combat.prototype._getInitiativeFormula = _getInitiativeFormula;
 
   // Define custom Entity classes
-  CONFIG.Actor.entityClass = TachSquadActor;
+  CONFIG.Actor.entityClass = SqdCmdrActor;
 
   // Register sheet application classes
   Actors.unregisterSheet("core", ActorSheet);
