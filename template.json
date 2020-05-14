@@ -1,0 +1,195 @@
+{
+  "Actor": {
+    "types": [
+      "ace",
+      "veteran",
+      "experienced",
+      "rookie"
+    ],
+    "templates": {
+      "details": {
+        "description": ""
+      },
+      "stats": {
+        "stress": {
+          "value": 5,
+          "min": 0,
+          "max": 5
+        },
+        "shields": {
+          "value": 3,
+          "min": 0,
+          "max": 3
+        },
+        "gunnery": {
+          "value": 0,
+          "min": -3,
+          "max": 5
+        },
+        "pilot": {
+          "value": 0,
+          "min": -3,
+          "max": 5
+        },
+        "tactics": {
+          "value": 0,
+          "min": -3,
+          "max": 5
+        },
+        "technology": {
+          "value": 0,
+          "min": -3,
+          "max": 5
+        }
+      }
+    },
+    "ace": {
+      "templates": [
+        "details",
+        "stats"
+      ],
+      "creation": {
+        "statarray": [
+          5,
+          4,
+          3,
+          2
+        ],
+        "stress": {
+          "ceiling": 6,
+          "floor": 5
+        }
+      },
+      "ship": {}
+    },
+    "veteran": {
+      "templates": [
+        "details",
+        "stats"
+      ],
+      "creation": {
+        "statarray": [
+          4,
+          3,
+          2,
+          2
+        ],
+        "stress": {
+          "ceiling": 5,
+          "floor": 4
+        }
+      },
+      "ship": {}
+    },
+    "experienced": {
+      "templates": [
+        "details",
+        "stats"
+      ],
+      "creation": {
+        "statarray": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "stress": {
+          "ceiling": 5,
+          "floor": 3
+        }
+      },
+      "ship": {}
+    },
+    "rookie": {
+      "templates": [
+        "details",
+        "stats"
+      ],
+      "creation": {
+        "statarray": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "stress": {
+          "ceiling": 3,
+          "floor": 3
+        }
+      },
+      "ship": {}
+    }
+  },
+  "Item": {
+    "types": [
+      "starfighter",
+      "gunship"
+    ],
+    "starfighter": {
+      "description": "",
+      "shields": {
+        "value": 3,
+        "min": 0,
+        "max": 3
+      },
+      "attack": {
+        "value": 0,
+        "min": -3,
+        "max": 5
+      },
+      "defend": {
+        "value": 0,
+        "min": -3,
+        "max": 5
+      },
+      "detect": {
+        "value": 0,
+        "min": -3,
+        "max": 5
+      },
+      "maneuver": {
+        "value": 0,
+        "min": -3,
+        "max": 5
+      }
+    },
+    "gunship": {
+      "description": "",
+      "shields": {
+        "value": 3,
+        "min": 0,
+        "max": 3
+      },
+      "attack": {
+        "value": 0,
+        "min": -3,
+        "max": 5
+      },
+      "defend": {
+        "value": 0,
+        "min": -3,
+        "max": 5
+      },
+      "detect": {
+        "value": 0,
+        "min": -3,
+        "max": 5
+      },
+      "maneuver": {
+        "value": 0,
+        "min": -3,
+        "max": 5
+      }
+    }
+  },
+  "Folder": {
+    "Actors": [
+      "Roster",
+      "Active",
+      "Recruits"
+    ],
+    "Items": [
+      "Ships"
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+.tachsqd {
+  /* Sheet Tabs */
+  /* Items List */
+  /* Attributes */
+}
+.tachsqd .window-content {
+  height: 100%;
+  padding: 5px;
+  overflow-y: hidden;
+  background: whitesmoke;
+}
+.tachsqd .sheet-header {
+  height: 100px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.tachsqd .sheet-header .profile-img {
+  flex: 0 0 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+.tachsqd .sheet-header .header-fields {
+  flex: 1;
+  height: 100px;
+}
+.tachsqd .sheet-header h1.charname {
+  height: 50px;
+  padding: 0px;
+  margin: 5px 0;
+  border-bottom: 0;
+}
+.tachsqd .sheet-header h1.charname input {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.tachsqd .resource {
+  width: 50%;
+  height: 40px;
+  margin-top: 10px;
+  float: left;
+  text-align: center;
+}
+.tachsqd .resource input {
+  width: 25%;  
+  min-width: 50px;
+  height: 28px;
+}
+.tachsqd .tabs {
+  height: 40px;
+  border-top: 1px solid #AAA;
+  border-bottom: 1px solid #AAA;
+}
+.tachsqd .tabs .item {
+  line-height: 40px;
+  font-weight: bold;
+}
+.tachsqd .tabs .item.active {
+  text-decoration: underline;
+  text-shadow: none;
+}
+.tachsqd .sheet-body {
+  overflow: hidden;
+}
+.tachsqd .sheet-body .tab {
+  height: 100%;
+  overflow-y: auto;
+}
+.tachsqd .editor,
+.tachsqd .editor-content {
+  height: 100%;
+}
+.tachsqd .items-list {
+  list-style: none;
+  margin: 7px 0;
+  padding: 0;
+  overflow-y: auto;
+}
+.tachsqd .items-list .item {
+  height: 30px;
+  line-height: 24px;
+  padding: 3px 0;
+  border-bottom: 1px solid #BBB;
+}
+.tachsqd .items-list .item img {
+  flex: 0 0 24px;
+  margin-right: 5px;
+}
+.tachsqd .items-list .item-name {
+  margin: 0;
+}
+.tachsqd .items-list .item-controls {
+  flex: 0 0 36px;
+}
+.tachsqd .attributes-header {
+  padding: 5px;
+  margin: 5px 0;
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid #AAA;
+  border-radius: 2px;
+  text-align: center;
+  font-weight: bold;
+}
+.tachsqd .attributes-header .attribute-label {
+  flex: 1.5;
+}
+.tachsqd .attributes-header .attribute-control {
+  flex: 0 0 20px;
+}
+.tachsqd .attributes-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.tachsqd .attributes-list li > * {
+  margin: 0 3px;
+  height: 28px;
+  line-height: 24px;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #AAA;
+}
+.tachsqd .attributes-list a.attribute-control {
+  flex: 0 0 20px;
+  text-align: center;
+  line-height: 28px;
+  border: none;
+}
+.tachsqd.sheet.actor {
+  min-width: 400px;
+  min-height: 420px;
+}
+.tachsqd.sheet.item {
+  min-width: 400px;
+  min-height: 400px;
+}
