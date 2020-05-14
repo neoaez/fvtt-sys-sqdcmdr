@@ -2,7 +2,7 @@
   "name": "sqdcmdr",
   "title": "Squadron Commander",
   "description": "Adaption of Fate's Tachyon Squadron fighter engagement as a solo game about managing a flight of starfighter pilots.",
-  "version": 0.01,
+  "version": 0.02,
   "minimumCoreVersion": "0.5.6",
   "compatibleCoreVersion": "0.5.6",
   "templateVersion": 2,
