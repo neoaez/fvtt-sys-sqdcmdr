@@ -14,7 +14,7 @@
   "gridDistance": 1,
   "gridUnits": "u",
   "primaryTokenAttribute": "shields",
-  "secondaryTokenAttribute": "stress"
+  "secondaryTokenAttribute": "stress",
   "url": "https://github.com/neoaez/fvtt-sys-sqdcmdr/",
   "manifest": "https://raw.githubusercontent.com/neoaez/fvtt-sys-sqdcmdr/master/system.json",
   "download": ""
